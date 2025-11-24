@@ -1,0 +1,12 @@
+n    """Enter search query in search bar."""
+    pass
+
+def submit_search(driver):
+    """Submit the search (press Enter or click search icon)."""
+    pass
+
+def get_search_results(driver):
+    """Return list of search result items."""
+    pass
+
+def is_product_in_results(driver

@@ -1,0 +1,8 @@
+n    """Return details of a specific product in the cart."""
+    pass
+
+# --- Test Cases ---
+
+def test_homepage_loads_successfully(browser):
+    """TS001: Verify Flipkart homepage loads successfully with valid URL."""
+    open_url(browser

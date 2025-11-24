@@ -1,0 +1,16 @@
+n    """Open the given URL in the browser."""
+    pass
+
+def is_homepage_loaded(driver):
+    """Return True if Flipkart homepage loads successfully."""
+    pass
+
+def is_error_page_displayed(driver):
+    """Return True if browser displays an error or Flipkart error page."""
+    pass
+
+def click_login(driver):
+    """Click the 'Login' button on homepage."""
+    pass
+
+def enter_credentials(driver
