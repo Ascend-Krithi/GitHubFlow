@@ -1,0 +1,1 @@
+This repository contains automation test scripts for UI, API, and Performance testing. Follow the instructions in the README file to set up and execute the tests.
