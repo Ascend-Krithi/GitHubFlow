@@ -1,0 +1,52 @@
+{
+  "TestCaseID": "TC_FK_001",
+  "Description": "Automate the process of logging into Flipkart, searching for a specific product, adding it to the cart, and verifying the cart contents.",
+  "Preconditions": [
+    "Flipkart website is accessible.",
+    "Valid user credentials are available.",
+    "The product to be searched is known."
+  ],
+  "Steps": [
+    {
+      "StepNumber": 1,
+      "Action": "Launch the Flipkart website in a web browser.",
+      "ExpectedResult": "Flipkart homepage is displayed."
+    },
+    {
+      "StepNumber": 2,
+      "Action": "Close the login popup if it appears.",
+      "ExpectedResult": "Login popup is closed, and the homepage is visible."
+    },
+    {
+      "StepNumber": 3,
+      "Action": "Click on the login button and enter valid credentials (username and password).",
+      "ExpectedResult": "User is successfully logged into the Flipkart account."
+    },
+    {
+      "StepNumber": 4,
+      "Action": "Enter the product name in the search bar and click the search icon.",
+      "ExpectedResult": "Search results for the product are displayed."
+    },
+    {
+      "StepNumber": 5,
+      "Action": "Select the desired product from the search results.",
+      "ExpectedResult": "Product details page is displayed."
+    },
+    {
+      "StepNumber": 6,
+      "Action": "Click on the 'Add to Cart' button.",
+      "ExpectedResult": "Product is successfully added to the shopping cart."
+    },
+    {
+      "StepNumber": 7,
+      "Action": "Navigate to the cart and verify the product details.",
+      "ExpectedResult": "Product details in the cart match the selected product."
+    }
+  ],
+  "Metadata": {
+    "Priority": "High",
+    "Tags": ["Flipkart", "E-commerce", "Automation", "Selenium"],
+    "Author": "Automation Test Engineer",
+    "LastUpdated": "2023-10-05"
+  }
+}
