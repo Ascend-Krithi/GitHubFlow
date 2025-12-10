@@ -1,0 +1,19 @@
+{
+  "turn_1": "I want to change my address.",
+  "turn_2": "It’s 123 Main Street, Bangalore 560001.",
+  "agent_confirmation": "Your address has been updated to 123 Main Street, Bangalore 5600XX. Reference ID: REF123456.",
+  "masked_pii": "123 Main Street, Bangalore 5600XX",
+  "reference_id": "REF123456",
+  "api_payload": {
+    "intent": "update_address",
+    "address": "123 Main Street, Bangalore 560001",
+    "user_id": "user_abc123",
+    "reference_id": "REF123456"
+  },
+  "criteria_verified": {
+    "intent_retained": true,
+    "confirmation_with_masked_pii": true,
+    "reference_id_provided": true,
+    "api_payload_correct": true
+  }
+}
