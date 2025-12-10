@@ -1,0 +1,9 @@
+{
+  "Test Results": {
+    "FAQ Response": "Pass, Response: 'Our business hours are 9 AM to 5 PM IST.'",
+    "Context Retention": "Pass, Address updated successfully with reference ID: 12345678.",
+    "Personalization": "Pass, Greeting: 'Hello, Kondala!', Suggestions: ['Track order', 'Billing', 'Address change']",
+    "Performance": "Pass, P95 latency: 0.3s, P99 latency: 0.3s, Error rate: 0%"
+  },
+  "Observations": "No anomalies detected."
+}
