@@ -1,0 +1,3 @@
+Query: What are your business hours?
+Response: Our business hours are Monday to Friday, 9 AM to 5 PM Eastern Time (ET). Please let us know if you need assistance outside these hours.
+Latency: 1.23 seconds
