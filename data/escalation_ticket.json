@@ -1,0 +1,13 @@
+{
+  "EscalationMessage": "Thank you for reaching out. Your query requires further assistance from our support team. We have escalated your case to a human agent, who will respond within the next 24 hours.",
+  "TicketMetadata": {
+    "Category": "Refund",
+    "Severity": "High",
+    "Transcript": "I need a refund for a disputed transaction.",
+    "UserText": "I need a refund for a disputed transaction.",
+    "Timestamps": {
+      "Submitted": "2023-10-01T10:00:00Z",
+      "Escalated": "2023-10-01T10:00:01Z"
+    }
+  }
+}
