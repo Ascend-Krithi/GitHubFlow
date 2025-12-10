@@ -1,0 +1,13 @@
+{
+  "EscalationMessage": "Thank you for your message. Your request involves a refund for a disputed transaction, which requires assistance from our human support team. We have created a support ticket for you. A specialist will review your case and respond within 24 hours. We appreciate your patience.",
+  "TicketMetadata": {
+    "Category": "Refund/Dispute",
+    "Severity": "High",
+    "Transcript": "I need a refund for a disputed transaction.",
+    "UserText": "I need a refund for a disputed transaction.",
+    "Timestamps": {
+      "Submitted": "2024-06-13T10:00:00Z",
+      "Escalated": "2024-06-13T10:00:01Z"
+    }
+  }
+}
