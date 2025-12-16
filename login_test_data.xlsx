@@ -1,0 +1,5 @@
+username,password,expected_status
+mknaidu_user,naidu,success
+invalid_user,naidu,failure
+mknaidu_user,naidu12,failure
+"","",failure
