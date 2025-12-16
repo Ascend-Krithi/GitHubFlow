@@ -1,0 +1,6 @@
+| username   | password   | expected_status |
+|------------|------------|----------------|
+| mknaidu_user | naidu    | success        |
+| invalid_user | naidu    | failure        |
+| mknaidu_user | wrong    | failure        |
+|            |           | failure        |
