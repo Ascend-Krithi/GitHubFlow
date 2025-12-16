@@ -1,0 +1,17 @@
+n   ```bash
+   pip install selenium openpyxl pytest
+   ```
+2. **Download ChromeDriver:**
+   - Download the appropriate ChromeDriver for your Chrome version: https://sites.google.com/chromium.org/driver/
+   - Ensure it's in your PATH or specify its location in the script if needed.
+
+3. **Prepare the Excel file:**
+   Create an Excel file named `login_test_data.xlsx` in the same directory with the following columns and sample data:
+
+   | username   | password   | expected_status |
+   |------------|------------|-----------------|
+   | validUser  | validPass  | success         |
+   | invalidUser| invalidPass| failure         |
+   |            |            | failure         |
+
+   (You can create this using Excel or LibreOffice
