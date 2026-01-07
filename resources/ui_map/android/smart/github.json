@@ -1,0 +1,62 @@
+{
+  "login_username_field": {
+    "locator": {
+      "css": "input#login_field"
+    }
+  },
+  "login_password_field": {
+    "locator": {
+      "css": "input#password"
+    }
+  },
+  "login_sign_in_button": {
+    "locator": {
+      "css": "input[type='submit']"
+    }
+  },
+  "home_profile_avatar": {
+    "locator": {
+      "css": "summary[aria-label='View profile and more']"
+    }
+  },
+  "home_sign_out_button": {
+    "locator": {
+      "css": "button.dropdown-item[href='/logout']"
+    }
+  },
+  "repo_new_repo_button": {
+    "locator": {
+      "css": "a[href='/new']"
+    }
+  },
+  "repo_name_field": {
+    "locator": {
+      "css": "input#repository_name"
+    }
+  },
+  "repo_create_repo_button": {
+    "locator": {
+      "css": "button.first-in-line"
+    }
+  },
+  "settings_tab": {
+    "locator": {
+      "css": "a[href$='/settings']"
+    }
+  },
+  "settings_delete_repo_button": {
+    "locator": {
+      "css": "button[data-facebox='#delete_repo_confirm']"
+    }
+  },
+  "settings_confirm_repo_name_field": {
+    "locator": {
+      "css": "input[name='verify']"
+    }
+  },
+  "settings_confirm_delete_button": {
+    "locator": {
+      "css": "button.btn-danger"
+    }
+  }
+}
