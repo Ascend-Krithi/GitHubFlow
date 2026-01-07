@@ -1,0 +1,22 @@
+{
+  "loginPage": {
+    "usernameField": "input#login_field",
+    "passwordField": "input#password",
+    "signInButton": "input[type='submit']"
+  },
+  "homePage": {
+    "profileAvatar": "summary[aria-label='View profile and more']",
+    "signOutButton": "button.dropdown-item[href='/logout']"
+  },
+  "repositoryPage": {
+    "newRepoButton": "a[href='/new']",
+    "repoNameField": "input#repository_name",
+    "createRepoButton": "button.first-in-line"
+  },
+  "settingsPage": {
+    "settingsTab": "a[href$='/settings']",
+    "deleteRepoButton": "button[data-facebox='#delete_repo_confirm']",
+    "confirmRepoNameField": "input[name='verify']",
+    "confirmDeleteButton": "button.btn-danger"
+  }
+}

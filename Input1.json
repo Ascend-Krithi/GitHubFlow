@@ -1,0 +1,101 @@
+[
+  {
+    "testCaseId": "TC01",
+    "testCaseDescription": "Verify successful login to Github",
+    "testSteps": [
+      {
+        "stepDescription": "Navigate to Github login page",
+        "expectedResult": "Login page is displayed",
+        "testData": ""
+      },
+      {
+        "stepDescription": "Enter valid username",
+        "expectedResult": "Username is entered",
+        "testData": "<valid_username>"
+      },
+      {
+        "stepDescription": "Enter valid password",
+        "expectedResult": "Password is entered",
+        "testData": "<valid_password>"
+      },
+      {
+        "stepDescription": "Click on Sign in button",
+        "expectedResult": "User is logged in and redirected to the home page",
+        "testData": ""
+      }
+    ]
+  },
+  {
+    "testCaseId": "TC02",
+    "testCaseDescription": "Verify repository creation",
+    "testSteps": [
+      {
+        "stepDescription": "Login to Github",
+        "expectedResult": "User is logged in",
+        "testData": "<valid_username>, <valid_password>"
+      },
+      {
+        "stepDescription": "Click on New repository button",
+        "expectedResult": "New repository page is displayed",
+        "testData": ""
+      },
+      {
+        "stepDescription": "Enter repository name",
+        "expectedResult": "Repository name is entered",
+        "testData": "<repo_name>"
+      },
+      {
+        "stepDescription": "Click on Create repository button",
+        "expectedResult": "Repository is created and repository page is displayed",
+        "testData": ""
+      }
+    ]
+  },
+  {
+    "testCaseId": "TC03",
+    "testCaseDescription": "Verify repository deletion",
+    "testSteps": [
+      {
+        "stepDescription": "Login to Github",
+        "expectedResult": "User is logged in",
+        "testData": "<valid_username>, <valid_password>"
+      },
+      {
+        "stepDescription": "Navigate to the repository settings",
+        "expectedResult": "Settings page is displayed",
+        "testData": "<repo_name>"
+      },
+      {
+        "stepDescription": "Scroll to Danger Zone and click Delete this repository",
+        "expectedResult": "Delete confirmation dialog is displayed",
+        "testData": ""
+      },
+      {
+        "stepDescription": "Confirm repository name and click I understand the consequences, delete this repository",
+        "expectedResult": "Repository is deleted and user is redirected to repositories list",
+        "testData": "<repo_name>"
+      }
+    ]
+  },
+  {
+    "testCaseId": "TC04",
+    "testCaseDescription": "Verify logout functionality",
+    "testSteps": [
+      {
+        "stepDescription": "Login to Github",
+        "expectedResult": "User is logged in",
+        "testData": "<valid_username>, <valid_password>"
+      },
+      {
+        "stepDescription": "Click on profile avatar",
+        "expectedResult": "Profile dropdown is displayed",
+        "testData": ""
+      },
+      {
+        "stepDescription": "Click on Sign out",
+        "expectedResult": "User is logged out and redirected to login page",
+        "testData": ""
+      }
+    ]
+  }
+]
